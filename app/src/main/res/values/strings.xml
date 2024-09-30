@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ErrandMaker</string>
+    <string name="add">ADD</string>
+    <string name="errands">ERRANDS</string>
+    <string name="home">HOME</string>
+    <string name="go_to_store">Go to store</string>
+    <string name="buy_milk">Buy milk</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="date">Date:</string>
+    <string name="map">MAP</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="_46_5611494">46.5611494</string>
+    <string name="_15_6289133">15.6289133</string>
+    <string name="open_in_map">OPEN IN MAP</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ErrandMaker</string>
+    <string name="add">ADD</string>
+    <string name="errands">ERRANDS</string>
+    <string name="home">HOME</string>
+    <string name="go_to_store">Go to store</string>
+    <string name="buy_milk">Buy milk</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+</resources>

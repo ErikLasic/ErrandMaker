@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/orange_juice"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:text="@string/app_name"
+        android:textColor="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/errandIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="25dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:scrollbarSize="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MapButton"
+        app:srcCompat="@drawable/errand_icon" />
+
+    <ImageView
+        android:id="@+id/ExitButton"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit_button_icon"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="211dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_appearance"
+        android:text="@string/add"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appTitle"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/ErrandsButton"
+        android:layout_width="211dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_appearance"
+        android:text="@string/errands"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddButton"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/MapButton"
+        android:layout_width="211dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_appearance"
+        android:text="@string/map"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ErrandsButton"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
